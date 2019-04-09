@@ -25,7 +25,7 @@ export class PostListItemComponent implements OnInit {
   loveUp(){
   	this.postLoveIts = this.postLoveIts+1;
   	console.log('love + 1');
-  	console.log(this.postLoveIts);
+    console.log(this.postLoveIts);
   }
   loveDown(){
   	this.postLoveIts = this.postLoveIts-1;
